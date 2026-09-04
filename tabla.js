@@ -18,3 +18,4 @@ function tablaMultiplicarArray(numero, hasta = 10) {
 }
 
 console.log(tablaMultiplicarArray(5, 12));
+console.log(tablaMultiplicarArray(5, 12));
