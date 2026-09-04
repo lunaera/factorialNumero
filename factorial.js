@@ -14,3 +14,39 @@ console.log(factorial(5)); // Resultado: 120
 console.log(factorial(23));
 
 
+
+function factorialIterativo(n) {
+    if (n < 0) {
+        return "No existe factorial para números negativos";
+    }
+    let resultado = 1;
+    for (let i = 2; i <= n; i++) {
+        resultado *= i;
+    }
+    return resultado;
+}
+
+console.log(factorialIterativo(8)); // Resultado: 120
+console.log(factorialIterativo(4)); // Resultado: 120
+
+
+// Función para imprimir la serie factorial
+function serieFactorial(n) {
+    if (n < 0) {
+        console.log("No existe factorial para números negativos");
+        return;
+    }
+
+    let resultado = 1;
+    for (let i = 0; i <= n; i++) {
+        if (i === 0) {
+            resultado = 1;
+        } else {
+            resultado *= i;
+        }
+        console.log(`${i}! = ${resultado}`);
+    }
+}
+
+// Ejemplo: serie hasta 10
+serieFactorial(10);
