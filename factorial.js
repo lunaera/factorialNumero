@@ -50,3 +50,8 @@ function serieFactorial(n) {
 
 // Ejemplo: serie hasta 10
 serieFactorial(10);
+
+
+let x = 4;
+let y = 5;
+console.log(x + y);
