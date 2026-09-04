@@ -25,3 +25,4 @@ function factorialIterativo(n) {
 }
 
 console.log(factorialIterativo(8)); // Resultado: 120
+console.log(factorialIterativo(4)); // Resultado: 120
