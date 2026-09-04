@@ -11,5 +11,6 @@ function factorial(n) {
 
 // Ejemplo de uso
 console.log(factorial(5)); // Resultado: 120
+console.log(factorial(23));
 
 
