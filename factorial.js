@@ -48,3 +48,4 @@ function serieFactorial(n) {
 
 // Ejemplo: serie hasta 10
 serieFactorial(10);
+serieFactorial(15);
